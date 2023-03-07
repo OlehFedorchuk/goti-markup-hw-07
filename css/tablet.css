@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    .menu-open {
+        display: none;
+    }
+
+    .container {
+        width: 736px;
+    }
+}

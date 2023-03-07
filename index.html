@@ -17,6 +17,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 
     <title>Document</title>
 </head>
@@ -24,23 +27,28 @@
 <body>
     <header class="header">
 
-        <div class="container heder-container">
+        <div class="container header-container">
             <nav class="navigation-list">
 
                 <a href="./index.html" class="logo logo-header"><span class="accent">Web</span>Studio</a>
 
-
                 <ul class="header-list header-list-container">
-
-
                     <li><a href="./index.html" class="header-list-link current">Studio</a></li>
                     <li><a href="./portfolio.html" class="header-list-link">Portfolio</a></li>
                     <li><a href="./contacts.html" class="header-list-link">Contacts</a></li>
-
                 </ul>
 
             </nav>
-            <address>
+
+            <button type="button" class="menu-open">
+                <svg class="menu-open-icon" width="32" height="22">
+                    <use href="./images/icons.svg#icon-menu-hamburger"></use>
+                </svg>
+
+            </button>
+
+
+            <address class="address-section">
                 <ul class="address-list address-list-container">
 
                     <li>
@@ -52,15 +60,16 @@
 
 
                 </ul>
-
             </address>
 
         </div>
     </header>
     <main>
+
+
         <!--Hero -->
         <section class="section-hero">
-            <div class="container">
+            <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button type="button" class="hero-button hero-text" data-modal-open>Order Service</button>
 
@@ -71,7 +80,7 @@
         <!-- Decorations -->
         <!-- Business solutions -->
         <section class="features">
-            <div class="container">
+            <div class="container features-container">
                 <h2 hidden class="features-title">Business solutions</h2>
                 <ul class="features-list">
                     <li class="features-item">
@@ -122,7 +131,7 @@
             </div>
         </section>
         <!-- Our works -->
-        <section>
+        <!-- <section>
 
             <div class="container">
                 <h2 class="doing-title doing-title-container">What are we doing</h2>
@@ -133,9 +142,9 @@
                 </ul>
             </div>
 
-        </section>
+        </section> -->
         <!-- Team -->
-        <section class="bg-color-team">
+        <!-- <section class="bg-color-team">
 
             <div class="container">
                 <h2 class="team-title team-title-container">Our Team</h2>
@@ -254,9 +263,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- Customers -->
-        <section class="cust-section">
+        <!-- <section class="cust-section">
             <div class="container">
                 <h2 class="title-customers">Customers</h2>
                 <ul class="company-list list">
@@ -304,12 +313,12 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
-    <footer class="footer bg-color-footer">
-        <!-- --------------------------------------- -->
+    <!-- <footer class="footer bg-color-footer">
+       
         <div class="container flex-container">
             <div class="container-logo footer-logo-container">
                 <a href="./index.html" class="logo logo-footer"><span class="accent">Web</span>Studio</a>
@@ -366,9 +375,8 @@
                 </div>
             </div>
         </div>
-        <!-- ------------------------------------------- -->
-    </footer>
-    <div class="backdrop  is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop  is-hidden" data-modal>
         <div class="modal">
 
             <button type="button" class="modal-close" data-modal-close>
@@ -424,7 +432,7 @@
 
 
         </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
 </body>
 
