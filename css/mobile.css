@@ -12,12 +12,17 @@
      .decoration-item {
          display: none;
      }
+
+     .our-works-container {
+         display: none;
+     }
  }
 
 
  @media screen and (min-width: 428px) {
      .container {
          width: 428px;
+
          margin-left: auto;
          margin-right: auto;
      }
