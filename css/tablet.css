@@ -169,6 +169,7 @@
 
         display: flex;
         flex-wrap: wrap;
+        row-gap: 72px;
         /* flex-wrap: wrap; */
         /* column-gap: 16px; */
         /* row-gap: 72px; */
@@ -182,6 +183,7 @@
 
     .features-item {
         width: 50%;
+        margin-bottom: 0;
 
     }
 
