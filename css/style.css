@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-
+    height: 70px;
 }
 
 .container {
@@ -96,39 +96,31 @@ body {
 }
 
 .hero-text {
-    /* display: flex; */
+
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .section-hero {
     background-color: var(--main-page-color);
-    /* padding-bottom: 188px; */
-    /* background-image: var(--l-gradient), url(../images/people-office.jpg); */
-    /* max-width: 1440px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* border: 1px solid #000000; */
+
 }
 
 
 .hero-title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    /* text-align: center; */
-    /* margin: 0 auto; */
-    /* padding-top: 188px; */
-    /* margin-bottom: 48px; */
-    /* width: 496px; */
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero-button {
@@ -139,8 +131,6 @@ body {
     border: 0;
     min-width: 169px;
     height: 56px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     transition-property: background-color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -197,6 +187,7 @@ body {
 
 /* Team */
 .team-container {
+    padding-right: 0px;
     padding-top: 96px;
     padding-bottom: 128px;
 }
@@ -235,6 +226,10 @@ body {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+
+.img-team {
+    display: block;
 }
 
 .team-list-wrap {
@@ -439,7 +434,6 @@ body {
     display: block;
     margin-right: 24px;
     padding-left: 16px;
-    /* width: 264px; */
     width: 100%;
     height: 40px;
     outline: none;
@@ -459,8 +453,6 @@ body {
 .input-subscribe:is(:hover, :focus) {
     border-color: #4D5AE5;
 }
-
-.forma-subscribe {}
 
 .text-subscribe {
     margin-right: 16px;
