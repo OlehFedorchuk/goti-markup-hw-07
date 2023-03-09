@@ -40,7 +40,7 @@
 
             </nav>
 
-            <button type="button" class="menu-open">
+            <button type="button" class="menu-open" data-menu-open>
                 <svg class="menu-open-icon" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu-hamburger"></use>
                 </svg>
@@ -65,7 +65,57 @@
         </div>
     </header>
     <main>
+        <!-- mobile menu -->
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="mob-container">
+                <div>
+                    <button type="button" data-menu-close class="menu-close">
+                        <svg class="modal-close-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-x"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-menu-list list">
+                        <li class="mob-menu-item"><a href="#" class="mob-menu-link link"></a>Studio</li>
+                        <li class="mob-menu-item"><a href="#" class="mob-menu-link link"></a>Portfolio</li>
+                        <li class="mob-menu-item mob-menu-color"><a href="#" class="mob-menu-link link"></a>Contacts
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mob-menu-tel"><a href="#" class="mob-menu-link link"></a>+11 (000) 111-11-11</li>
+                        <li class="mob-menu-email"><a href="#" class="mob-menu-link link"></a>info@devstudio.com</li>
 
+                    </ul>
+                    <ul class="mob-soc-list">
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                                <svg class="mob-soc-icon" width="24px" height="24px">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                                <svg class="mob-soc-icon" width="24px" height="24px">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                                <svg class="mob-soc-icon" width="24px" height="24px">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                        <li class="mob-soc-item"><a href="" class="mob-soc-link">
+                                <svg class="mob-soc-icon" width="24px" height="24px">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--  -->
 
         <!--Hero -->
         <section class="section-hero">
@@ -439,6 +489,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

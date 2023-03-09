@@ -23,9 +23,7 @@
     }
 
     .current::after {
-
         bottom: -28px;
-
     }
 
     .features-list {
@@ -36,7 +34,6 @@
     .features-item {
         width: 264px;
         margin-bottom: 72px;
-
     }
 
     .decoration-item {
@@ -95,8 +92,6 @@
     /* Team */
     .team-list-container {
         flex-wrap: nowrap;
-        /* width: 1128px; */
-        /* defolt */
     }
 
     .team-container {
@@ -113,10 +108,10 @@
     }
 
     /*  */
+
     /* Footer */
     .flex-container {
         padding-left: 0px;
-        /* column-gap: 0px; */
     }
 
     .footer-logo-container {

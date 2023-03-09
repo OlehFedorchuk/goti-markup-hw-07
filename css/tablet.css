@@ -28,15 +28,12 @@
         list-style-type: var(--remove-marker-list)
     }
 
-
-
     .header-list-link {
         text-decoration: none;
         color: var(--main-page-color);
         transition-property: color, transform;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
     }
 
     .header-list-link:hover,
@@ -149,8 +146,6 @@
 
     .features-subtitle {
         text-align: left;
-
-
         font-size: 36px;
         line-height: 1.5;
 
@@ -255,7 +250,6 @@
         width: 264px;
         margin-bottom: 0px;
         margin-right: 0px;
-
     }
 
     .btn-style-subscribe {
